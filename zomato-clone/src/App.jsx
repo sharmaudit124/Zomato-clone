@@ -1,12 +1,14 @@
 import './App.css'
 
+import Header from './components/Headers/Header.jsx';
+
 function App() {
 
   return (
-    <>
-      <h1>Zomato</h1>
-    </>
-  )
+    <div className="App">
+    <Header />
+    </div>
+  );
 }
 
-export default App
+export default App;
